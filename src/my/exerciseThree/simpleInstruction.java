@@ -34,6 +34,7 @@ public class simpleInstruction extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jPanel1.setBackground(new java.awt.Color(241, 211, 248));
         jPanel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
@@ -109,6 +110,8 @@ public class simpleInstruction extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        simpleGameMenu gameMenu = new simpleGameMenu();
+        gameMenu.setVisible(true);
         dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
 
